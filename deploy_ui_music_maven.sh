@@ -17,6 +17,9 @@ server=180.16.10.109
 username=root
 file_rsa=id_rsa_mb
 path=\/var\/www\/html\/
+
+cd ..
+
 if [ -d "music-maven" ]; then
     echo 'exists'
 else
